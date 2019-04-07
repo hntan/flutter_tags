@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     _list.forEach((item)
     {
         _selectableTags.add (
-            Tag (id: cnt,
+            Tag (id: cnt.toString(),
                 title: item,
                 active: (_singleItem) ? ( cnt==3 ? true:false ) : true,
                 icon: (item == '0' || item == '1' || item == '2') ?

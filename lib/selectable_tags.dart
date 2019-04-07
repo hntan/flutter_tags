@@ -362,7 +362,7 @@ class Tag
         this.length =  (icon!=null)? 2 : TextSize.utf8Length(title);
     }
 
-    final int id;
+    final String id;
     final IconData icon;
     final String title;
     bool active;
